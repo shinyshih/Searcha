@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7775F11B20CA38F40006C36A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775F11A20CA38F40006C36A /* DetailViewController.swift */; };
 		77F9F35820AC242E002E89D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9F35720AC242E002E89D2 /* AppDelegate.swift */; };
-		77F9F35A20AC242E002E89D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9F35920AC242E002E89D2 /* ViewController.swift */; };
 		77F9F35D20AC242E002E89D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F9F35B20AC242E002E89D2 /* Main.storyboard */; };
 		77F9F35F20AC242F002E89D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F9F35E20AC242F002E89D2 /* Assets.xcassets */; };
 		77F9F36220AC242F002E89D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F9F36020AC242F002E89D2 /* LaunchScreen.storyboard */; };
+		77F9F36A20AD2FB6002E89D2 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9F36920AD2FB6002E89D2 /* SearchTableViewController.swift */; };
+		77F9F36C20AD3121002E89D2 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9F36B20AD3121002E89D2 /* LocationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7775F11A20CA38F40006C36A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		77F9F35420AC242E002E89D2 /* Searcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Searcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F9F35720AC242E002E89D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77F9F35920AC242E002E89D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77F9F35C20AC242E002E89D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77F9F35E20AC242F002E89D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77F9F36120AC242F002E89D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77F9F36320AC242F002E89D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F9F36920AD2FB6002E89D2 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		77F9F36B20AD3121002E89D2 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				77F9F35720AC242E002E89D2 /* AppDelegate.swift */,
-				77F9F35920AC242E002E89D2 /* ViewController.swift */,
 				77F9F35B20AC242E002E89D2 /* Main.storyboard */,
+				77F9F36B20AD3121002E89D2 /* LocationTableViewCell.swift */,
+				77F9F36920AD2FB6002E89D2 /* SearchTableViewController.swift */,
+				7775F11A20CA38F40006C36A /* DetailViewController.swift */,
 				77F9F35E20AC242F002E89D2 /* Assets.xcassets */,
 				77F9F36020AC242F002E89D2 /* LaunchScreen.storyboard */,
 				77F9F36320AC242F002E89D2 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77F9F35A20AC242E002E89D2 /* ViewController.swift in Sources */,
+				77F9F36A20AD2FB6002E89D2 /* SearchTableViewController.swift in Sources */,
+				77F9F36C20AD3121002E89D2 /* LocationTableViewCell.swift in Sources */,
+				7775F11B20CA38F40006C36A /* DetailViewController.swift in Sources */,
 				77F9F35820AC242E002E89D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9X56337HD;
 				INFOPLIST_FILE = Searcha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9X56337HD;
 				INFOPLIST_FILE = Searcha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
